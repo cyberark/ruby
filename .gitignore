@@ -6,10 +6,10 @@ coverage.data
 rdoc
 
 # bundler
-/rubocop-airbnb/.bundle
+/rubocop/.bundle
 .bundle
 .config
-/rubocop-airbnb/vendor/bundle
+/rubocop/vendor/bundle
 Gemfile.lock
 
 # rbenv
@@ -23,6 +23,6 @@ pkg
 TAGS
 
 # logfiles and tempfiles.
-/rubocop-airbnb/log/*.log
-/rubocop-airbnb/tmp
+/rubocop/log/*.log
+/rubocop/tmp
 .byebug_history

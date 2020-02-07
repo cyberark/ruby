@@ -3,6 +3,6 @@
 # merged and moved "upstairs" into `.rubocop.yml`, but due to RuboCop's
 # inheritance model we'll be doing this for now.
 
-# For the rubocop-airbnb gem specifically, we want to load the local configuration.
+# For the rubocop gem specifically, we want to load the local configuration.
 require:
-  - ./lib/rubocop-airbnb.rb
+  - ./lib/rubocop.rb

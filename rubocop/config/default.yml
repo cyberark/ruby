@@ -25,7 +25,7 @@ AllCops:
     - features/support/factories/**/*.rb
 
 inherit_from:
-  - './rubocop-airbnb.yml'
+  - './rubocop.yml'
   - './rubocop-bundler.yml'
   - './rubocop-gemspec.yml'
   - './rubocop-layout.yml'

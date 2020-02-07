@@ -2,7 +2,7 @@ $LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
 require 'rubocop/airbnb/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'rubocop-airbnb'
+  spec.name = 'rubocop'
   spec.summary = 'Custom code style checking for Airbnb.'
   spec.description = <<-EOF
     A plugin for RuboCop code style enforcing & linting tool. It includes Rubocop configuration

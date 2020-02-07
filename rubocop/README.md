@@ -12,7 +12,7 @@ that are not currently addressed by other projects.
 Just put this in your `Gemfile` it depends on the appropriate version of rubocop and rubocop-rspec.
 
 ```
-gem 'rubocop-airbnb'
+gem 'rubocop'
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ First Create a new file `.rubocop_airbnb.yml` in the same directory as your `.ru
 this file should contain
 ```
 require:
-  - rubocop-airbnb
+  - rubocop
 ```
 
 Next add the following to `.rubocop.yml`
@@ -48,7 +48,7 @@ cops together with the standard cops.
 ### Command line
 
 ```bash
-rubocop --require rubocop-airbnb
+rubocop --require rubocop
 ```
 
 ## The Cops

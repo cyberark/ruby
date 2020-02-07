@@ -23,4 +23,4 @@
 * Add SimpleUnless cop
 
 # 1.0.0
-* First public release of rubocop-airbnb
+* First public release of rubocop

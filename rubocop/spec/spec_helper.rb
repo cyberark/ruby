@@ -7,7 +7,7 @@ module SpecHelper
 end
 
 # Load in Rubocop cops
-require File.expand_path('lib/rubocop-airbnb')
+require File.expand_path('lib/rubocop')
 
 spec_helper_glob = File.expand_path('{support,shared}/*.rb', SpecHelper::ROOT)
 Dir.glob(spec_helper_glob).map(&method(:require))
